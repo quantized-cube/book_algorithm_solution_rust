@@ -4,7 +4,7 @@ fn lower_bound<T>(v: &Vec<T>, key: T) -> T
 where
     T: Ord + Copy,
 {
-    let mut left = 0 as usize;
+    let mut left = 0usize;
     let mut right = v.len();
     while right - left > 1 {
         let mid = left + (right - left) / 2;

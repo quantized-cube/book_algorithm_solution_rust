@@ -17,7 +17,7 @@ fn main() {
 
     // 貪欲法
     let mut result = 0;
-    for i in 0..6 as usize {
+    for i in 0..6 {
         // 枚数制限がない場合の枚数
         let mut add = x / VALUE[i];
 

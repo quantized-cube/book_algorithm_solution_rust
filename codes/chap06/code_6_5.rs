@@ -21,7 +21,7 @@ fn main() {
 
     // 二分探索の上限値を求める
     let mut m: usize = 0;
-    for i in 0..n as usize {
+    for i in 0..n {
         m = cmp::max(m, h[i] + s[i] * n);
     }
 
@@ -34,7 +34,7 @@ fn main() {
         // 判定する
         let mut ok = true;
         let mut t = vec![0; n]; // 各風船を割るまでの制限時間
-        for i in 0..n as usize {
+        for i in 0..n {
             // そもそも mid が初期高度より低かったら false
             if mid < h[i] {
                 ok = false;

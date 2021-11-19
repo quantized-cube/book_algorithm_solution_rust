@@ -4,7 +4,7 @@ const a: Vec<i64> = vec![3, 5, 8, 10, 14, 17, 21, 39];
 /// 目的の値 key の添字を返す (存在しない場合は -1)
 fn binary_search(key: i64) -> i64 {
     // 配列 a の左端と右端
-    let mut left = 0 as i64;
+    let mut left = 0i64;
     let mut right = (a.len() as i64) - 1;
 
     while left <= right {
