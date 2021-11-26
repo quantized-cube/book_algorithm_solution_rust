@@ -74,7 +74,7 @@ fn input() -> (usize, u64, Vec<(usize, usize)>) {
 
 fn main() {
     // 頂点数と辺数
-    let (n, _m, a_b_pairs) = input(use_default_values);
+    let (n, _m, a_b_pairs) = input();
 
     // Union-Find を要素数 n で初期化
     let mut uf = UnionFind::new(n);
