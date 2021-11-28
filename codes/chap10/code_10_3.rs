@@ -6,11 +6,11 @@ fn main() {
     input! {
         // 頂点数と辺数
         n: usize,
-        m: u64,
+        m: usize,
         // グラフ
-        a_b_pairs: [(usize, usize); n],
+        a_b_pairs: [(usize, usize); m],
     }
-    let mut g = vec![vec![]; n];
+    let mut g = vec![vec![]; m];
     for ab in a_b_pairs {
         g[ab.0].push(ab.1);
         // 無向グラフの場合は以下を追加

@@ -13,10 +13,10 @@ type Graph = Vec<Vec<Edge>>;
 fn main() {
     input! {
         n: usize,
-        m: u64,
-        a_b_w: [(usize, usize, i64); n],
+        m: usize,
+        a_b_w: [(usize, usize, i64); m],
     }
-    let mut g = vec![vec![]; n];
+    let mut g = vec![vec![]; m];
     for abw in a_b_w {
         g[abw.0].push(Edge {
             to: abw.1,
