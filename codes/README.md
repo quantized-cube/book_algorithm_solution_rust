@@ -71,8 +71,10 @@
 
 　
 
-<!--
 ## 8 章　データ構造(1)：配列，連結リスト，ハッシュテーブル
+
+
+<!--
 
 - [code 8.1：配列 (std::vector) の使い方](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap08/code_8_1.rs) 
 - [code 8.2：自己参照構造体](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap08/code_8_2.rs) 
@@ -81,7 +83,7 @@
 - [code 8.6；削除操作も可能にした双方向連結リスト](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap08/code_8_6.rs) 
 
 
-
+-->
 　
 
 ## 9 章　データ構造(2)：スタックとキュー
@@ -141,34 +143,43 @@
 
 ## 14 章　グラフ(2)：最短路問題
 
+<!--
+
 - [code 14.1：緩和に用いる関数 chmin](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap14/code_14_1.rs) 
 - [code 14.2：ベルマン・フォード法の実装](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap14/code_14_2.rs) 
 - [code 14.3：ダイクストラ法の実装 (ヒープを用いない場合)](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap14/code_14_3.rs) 
 - [code 14.4：ダイクストラ法の実装 (ヒープを用いる場合)](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap14/code_14_4.rs) 
 - [code 14.5：フロイド・ワーシャル法の実装](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap14/code_14_5.rs) 
 
-
+-->
 
 　
 
 ## 15 章　グラフ(3)：最小全域木問題
 
+<!--
+
 - [code 15.1：クラスカル法の実装](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap15/code_15_1.rs) 
 
-
+-->
 
 　
 
 ## 16 章　グラフ(4)：ネットワークフロー
 
+<!--
+
 - [code 16.1：フォード・ファルカーソン法の実装](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap16/code_16_1.rs) 
 
-
+-->
 
 　
 
 ## 18 章　難問対策
 
+<!--
+
 - [code 18.1：重み付き最大安定集合問題を解く，木上の動的計画法](https://github.com/quantized-cube/book_algorithm_solution_rust/blob/master/codes/chap18/code_18_1.rs) 
+
 -->
 
